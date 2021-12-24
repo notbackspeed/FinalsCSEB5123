@@ -11,7 +11,7 @@
                     @csrf
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <label for="pstage">Start Date</label>
+                            <label for="pstage">Project Stage</label>
                             <!--<input name="pstage" type="text" class="form-control" id="pstage" value="{{$project->pstage}}">-->
                             <select name="pstage" class="form-control" id="pstage" value="{{$project->pstage}}">
                             <option>-- Please Select --</option>
@@ -22,7 +22,7 @@
                             </select>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="pstatus">End Date</label>
+                            <label for="pstatus">Project Status</label>
                             <!--<input name="pstatus" type="text" class="form-control" id="pstatus" value="{{$project->pstatus}}">-->
                             <select name="pstatus" class="form-control" value="{{$project->pstatus}}">
                                 <option>-- Please Select --</option>
